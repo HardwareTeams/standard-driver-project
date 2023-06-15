@@ -1,0 +1,21 @@
+# Standards
+
+## Intro
+
+This document outlines all rules which must be followed to commit a new driver. 
+
+## Requirements
+
+1. The driver shall be written in c
+2. The driver shall be a single header file (`.h`)  and a single source file `.c` file
+3. The driver shall not have any additional dependencies
+4. The driver shall provide a function to read and write to the IC through every mode of communication the IC supports (example: I2C, SPI)
+5. The function in (4) shall contain a commented section where the user can add device/platform specific code at time of use
+6. Register names shall be defined in the header file and match datasheet name **exactly** (i.e. case sensitive). If there are spaces in the register name they shall be replaced with an underscore `_`
+   
+    | register name | name in header file | 
+    | --- | --- |
+    | Power Management 1 | Power_Management_1 |
+    
+7. Bit field names shall be defined in the header file and match datasheet name **exactly** (i.e. case sensitive). If there are spaces in the bit field name they shall be replaced with underscore `_`
+8. Each bitfield 
