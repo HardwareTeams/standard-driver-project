@@ -6,7 +6,7 @@ The Standard Driver Project is an open-source project to standardize how periphe
 
 Create the largest repository of standalone drivers for embedded system development.
 
-# How to Get Involved
+## How to Get Involved
 
 We are currently writing the standard in standard.md. To get involved please open an issues detailing new standards or anything you think would help steer the project to success. 
 
