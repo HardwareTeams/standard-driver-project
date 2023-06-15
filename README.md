@@ -5,3 +5,10 @@ The Standard Driver Project is an open-source project to standardize how periphe
 ## The Goal 
 
 Create the largest repository of standalone drivers for embedded system development.
+
+## TODO
+
+- [ ] Write Standards
+- [ ] Determine edge cases where the standard breaks down
+- [ ] Create First Working Example
+- [ ] Contribute endlessly, forever
