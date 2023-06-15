@@ -7,7 +7,7 @@ This document outlines all rules which must be followed to commit a new driver.
 ## Requirements
 
 1. The driver shall be written in c
-2. The driver shall be a single header file (`.h`)  and a single source file `.c` file
+2. The driver shall be a single header file (`.h`)  and a single source file (`.c`)
 3. The driver shall not have any additional dependencies
 4. The driver shall provide a function to read and write to the IC through every mode of communication the IC supports (example: I2C, SPI)
     - `<device name>_<comm. protocol>_write(TODO)` for example `lis3dh_i2c_write(TODO)`
