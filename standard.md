@@ -21,4 +21,5 @@ This document outlines all rules which must be followed to commit a new driver.
     | TEMP_CFG_REG  | TEMP_CFG_REG  |
     | 0 register  | r0_register  |
 
-7. Bit field names shall be defined in the header file and match datasheet name **exactly** (i.e. case sensitive). If there are spaces in the bit field name they shall be replaced with underscore `_`
+7. Bit field names shall be defined in the header file as a macro. The macro shall match the datasheet name **exactly** (i.e. case sensitive). If there are spaces in the bit field name they shall be replaced with underscore `_`. The macro should allow the user to pass the value the bit field should be set to so it can be used as follows:
+      - `nau8822_spi_write(Power_Management_1, DCBUFEN(1) | AUX1MXEN(1) | REFIMP(3) )`
