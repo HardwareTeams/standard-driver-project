@@ -8,7 +8,7 @@ Create the largest repository of standalone drivers for embedded system developm
 
 ## How to Get Involved
 
-We are currently writing the standard in standard.md. To get involved please open an issues detailing new standards or anything you think would help steer the project to success. 
+We are currently writing the standard in `standard.md`. To get involved, please open an issue detailing new standards, ideas, or anything you think would help steer the project to success. 
 
 ## TODO
 
